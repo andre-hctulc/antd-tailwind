@@ -1,0 +1,11 @@
+{
+    "name": "@andre-hctulc/antd-tailwind",
+    "version": "0.0.1",
+    "description": "",
+    "main": "tailwind.config.ts",
+    "scripts": {
+        "test": "tsc"
+    },
+    "author": "André Thomas",
+    "license": "ISC"
+}
