@@ -3,23 +3,36 @@ import type { Config } from "tailwindcss";
 const config: Config = {
     content: ["./src/**/*.{js,ts,jsx,tsx,mdx,css,scss,html}"],
     theme: {
-        extend: {},
         // Define antd colors as tailwindcss colors
         colors: {
             // neutral
-            black: "var(--ant-color-gray-13)",
-            white: "var(--ant-color-gray-1)",
+            black: "black",
+            white: "white",
 
             // theme
             primary: "var(--ant-color-primary)",
+            success: "var(--ant-color-success)",
+            warning: "var(--ant-color-warning)",
+            error: "var(--ant-color-error)",
+            info: "var(--ant-color-info)",
 
             // general
             divider: "var(--ant-color-border)",
+            divider2: "var(--ant-color-border-secondary)",
 
             // background
             bg: "var(--ant-color-bg-base)",
             "bg-layout": "var(--ant-color-bg-layout)",
             "bg-container": "var(--ant-color-bg-container)",
+            "bg-mask": "var(--ant-color-bg-mask)",
+            "bg-blur": "var(--ant-color-bg-blur)",
+            "bg-elevated": "var(--ant-color-bg-elevated)",
+
+            // fill
+            fill: "var(--ant-color-fill)",
+            "fill-2": "var(--ant-color-fill-secondary)",
+            "fill-3": "var(--ant-color-fill-tertiary)",
+            "fill-4": "var(--ant-color-fill-quaternary)",
 
             // text
             text: "var(--ant-color-text)",
@@ -28,20 +41,20 @@ const config: Config = {
             "text-disabled": "var(--ant-color-bg-disabled)",
             "text-description": "var(--ant-color-bg-description)",
 
-            // gray
-            "gray-1": "var(--ant-color-gray-1)",
-            "gray-2": "var(--ant-color-gray-2)",
-            "gray-3": "var(--ant-color-gray-3)",
-            "gray-4": "var(--ant-color-gray-4)",
-            "gray-5": "var(--ant-color-gray-5)",
-            "gray-6": "var(--ant-color-gray-6)",
-            "gray-7": "var(--ant-color-gray-7)",
-            "gray-8": "var(--ant-color-gray-8)",
-            "gray-9": "var(--ant-color-gray-9)",
-            "gray-10": "var(--ant-color-gray-10)",
-            "gray-11": "var(--ant-color-gray-11)",
-            "gray-12": "var(--ant-color-gray-12)",
-            "gray-13": "var(--ant-color-gray-13)",
+            // constants
+            blue: "var(--ant-blue)",
+            cyan: "var(--ant-cyan)",
+            purple: "var(--ant-purple)",
+            green: "var(--ant-green)",
+            magenta: "var(--ant-magenta)",
+            pink: "var(--ant-pink)",
+            red: "var(--ant-red)",
+            orange: "var(--ant-orange)",
+            yellow: "var(--ant-yellow)",
+            volcano: "var(--ant-volcano)",
+            geekblue: "var(--ant-geekblue)",
+            gold: "var(--ant-gold)",
+            lime: "var(--ant-lime)",
         },
     },
     plugins: [],

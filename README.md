@@ -1,6 +1,6 @@
 # antd-tailwind
 
-Antd-Tailwind is a tailored package that seamlessly integrates [Tailwind CSS](https://tailwindcss.com) with [Ant Design v5](https://ant.design). By leveraging a Tailwind-compatible configuration, it harmoniously aligns with the design principles of Ant Design.
+antd-tailwind is a tailored package that seamlessly integrates [Tailwind CSS](https://tailwindcss.com) with [Ant Design v5](https://ant.design). By leveraging a Tailwind-compatible configuration, it harmoniously aligns with the design principles of Ant Design.
 
 ### Key Features:
 
