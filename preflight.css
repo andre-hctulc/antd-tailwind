@@ -1,0 +1,24 @@
+@layer base {
+    /* fix border classes */
+    * {
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        margin-left: 0px;
+        /* 
+        default border style - otherwise border-(l|r|t|b) will not render any border 
+        As a consequence, we have to set the default border width to 0px to avoid any border rendering by border-style: solid 
+        */
+        border-style: solid;
+        /* set default color */
+        border-color: var(--ant-color-border);
+    }
+
+    ol,
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}

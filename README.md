@@ -1,10 +1,11 @@
 # antd-tailwind
 
-antd-tailwind is a tailored package that seamlessly integrates [Tailwind CSS](https://tailwindcss.com) with [Ant Design v5](https://ant.design). By leveraging a Tailwind-compatible configuration, it harmoniously aligns with the design principles of Ant Design.
+[Tailwind CSS](https://tailwindcss.com) config compatible with [Ant Design v5](https://ant.design).
 
-### Key Features:
+## Usage
 
--   **Tailwind CSS Compatibility:** Harness the flexibility and efficiency of Tailwind CSS utilities while retaining the structured elegance of Ant Design.
--   **Synchronized Color Themes:** Direct integration with Ant Design's CSS variables ensures cohesive color schemes across your application.
+Extend teh config and include _preflight.css_.
 
-With Antd-Tailwind, developers can effortlessly blend the robust utility-first approach of Tailwind CSS with the refined UI components of Ant Design, empowering them to build modern, responsive interfaces with ease.
+´´´
+todo
+´´´
