@@ -35,11 +35,20 @@ const config: Config = {
             "fill-4": "var(--ant-color-fill-quaternary)",
 
             // text
-            text: "var(--ant-color-text)",
-            "text-base": "var(--ant-color-text-base)",
-            "text-container": "var(--ant-color-bg-container)",
-            "text-disabled": "var(--ant-color-bg-disabled)",
+            "text": "var(--ant-color-text-base)",
+            "text-heading": "var(--ant-color-text-heading)",
+            "text-placeholder": "var(--ant-color-text-placeholder)",
+            "text-label": "var(--ant-color-text-label)",
             "text-description": "var(--ant-color-bg-description)",
+            "text-light-solid": "var(--ant-color-text-light-solid)",
+            "text-secondary": "var(--ant-color-text-secondary)",
+            "text-tertiary": "var(--ant-color-text-tertiary)",
+            "text-quaternary": "var(--ant-color-text-quaternary)",
+
+            // layout
+
+            "header-bg": "var(--ant-layout-header-bg)",
+            "slider-bg": "var(--ant-layout-slider-bg)",
 
             // constants
             blue: "var(--ant-blue)",
